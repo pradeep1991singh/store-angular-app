@@ -1,0 +1,31 @@
+{
+  "name": "store-angular-app",
+  "version": "1.0.0",
+  "description": "AngularJs Store application",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pradeep1991singh/store-angular-app.git"
+  },
+  "keywords": [
+    "store",
+    "angular",
+    "app"
+  ],
+  "author": "pradeep singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pradeep1991singh/store-angular-app/issues"
+  },
+  "homepage": "https://github.com/pradeep1991singh/store-angular-app#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-inject": "^4.2.0",
+    "gulp-natural-sort": "^0.1.1",
+    "gulp-webserver": "^0.9.1",
+    "run-sequence": "^1.2.2"
+  }
+}

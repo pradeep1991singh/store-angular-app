@@ -1,0 +1,26 @@
+<!-- product details template -->
+
+<div class="panel panel-default">
+  
+  <div class="panel-heading">
+    <h3 class="panel-title">{{product.name}} - <span class="badge">{{product.price | currency}}</span></h3>
+  </div>
+
+  <div class="panel-body">
+
+    <ul class="img-thumbnails clearfix">
+      <li class="small-image thumbnail" ng-repeat="image in product.images">
+        <img ng-src="{{image}}" class="img-responsive" alt="product image">
+      </li>
+    </ul>
+
+    <p>{{product.description}}</p>
+
+    <a class="btn btn-default pull-right btn-success" 
+      ng-click="buy(product.id)" role="button">
+      <span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span> Buy
+    </a>
+
+  </div>
+
+</div>

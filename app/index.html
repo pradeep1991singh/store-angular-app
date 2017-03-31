@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Store angular app</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  	<!-- inject:css -->
+  	<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+  	<link rel="stylesheet" href="/app/scripts/styles/styles.css">
+  	<!-- endinject -->
+
+  	<!-- inject:js -->
+  	<script src="/bower_components/angular/angular.min.js"></script>
+  	<script src="/bower_components/angular-route/angular-route.min.js"></script>
+  	<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  	<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+  	<script src="/bower_components/jquery/dist/jquery.slim.min.js"></script>
+  	<script src="/bower_components/jquery/external/sizzle/dist/sizzle.min.js"></script>
+  	<script src="/app/scripts/app.js"></script>
+  	<script src="/app/scripts/controllers/product.controller.js"></script>
+  	<script src="/app/scripts/controllers/products.controller.js"></script>
+  	<script src="/app/scripts/directives/product-details.directives.js"></script>
+  	<!-- endinject -->
+    	    
+  </head>
+  <body ng-app="store">
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+		<header>
+      <h3 class="text-center"> – Welcome to Angular Store application – </h3>
+			<hr />
+		</header>
+    
+		<div ng-view></div>
+
+  </body>
+</html>
